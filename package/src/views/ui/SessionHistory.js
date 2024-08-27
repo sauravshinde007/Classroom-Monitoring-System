@@ -1,7 +1,7 @@
 import ProjectTables from "../../components/dashboard/ProjectTable";
 import { Row, Col, Table, Card, CardTitle, CardBody } from "reactstrap";
 
-const Tables = () => {
+const SessionHistory = () => {
   return (
     <Row>
       {/* --------------------------------------------------------------------------------*/}
@@ -143,4 +143,4 @@ const Tables = () => {
   );
 };
 
-export default Tables;
+export default SessionHistory;

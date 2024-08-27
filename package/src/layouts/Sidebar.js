@@ -1,51 +1,38 @@
+
+import React from "react";
 import { Button, Nav, NavItem } from "reactstrap";
 import { Link, useLocation } from "react-router-dom";
 
 const navigation = [
   {
     title: "Dashboard",
-    href: "/starter",
+    href: "/",
     icon: "bi bi-speedometer2",
   },
   {
-    title: "Alert",
-    href: "/alerts",
+    title: "Session Analysis",
+    href: "/session-analysis",
+    icon: "bi bi-graph-up",
+  },
+  {
+    title: "Session History",
+    href: "/session-history",
+    icon: "bi bi-clock-history",
+  },
+  {
+    title: "Alerts & Reports",
+    href: "/alerts-reports",
     icon: "bi bi-bell",
   },
   {
-    title: "Badges",
-    href: "/badges",
-    icon: "bi bi-patch-check",
+    title: "Settings",
+    href: "/settings",
+    icon: "bi bi-gear",
   },
   {
-    title: "Buttons",
-    href: "/buttons",
-    icon: "bi bi-hdd-stack",
-  },
-  {
-    title: "Cards",
-    href: "/cards",
-    icon: "bi bi-card-text",
-  },
-  {
-    title: "Grid",
-    href: "/grid",
-    icon: "bi bi-columns",
-  },
-  {
-    title: "Table",
-    href: "/table",
-    icon: "bi bi-layout-split",
-  },
-  {
-    title: "Forms",
-    href: "/forms",
-    icon: "bi bi-textarea-resize",
-  },
-  {
-    title: "About",
-    href: "/about",
-    icon: "bi bi-people",
+    title: "Help",
+    href: "/help",
+    icon: "bi bi-question-circle",
   },
 ];
 

@@ -10,6 +10,11 @@ const navigation = [
     icon: "bi bi-speedometer2",
   },
   {
+    title: "Video Upload",
+    href: "/video-upload",
+    icon: "bi bi-upload",
+  },
+  {
     title: "Session Analysis",
     href: "/session-analysis",
     icon: "bi bi-graph-up",

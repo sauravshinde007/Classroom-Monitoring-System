@@ -43,11 +43,6 @@ const navigation = [
     icon: "bi bi-textarea-resize",
   },
   {
-    title: "Breadcrumbs",
-    href: "/breadcrumbs",
-    icon: "bi bi-link",
-  },
-  {
     title: "About",
     href: "/about",
     icon: "bi bi-people",

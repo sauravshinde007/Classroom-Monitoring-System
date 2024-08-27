@@ -65,7 +65,7 @@ const Header = () => {
         <Nav className="me-auto" navbar>
           <NavItem>
             <Link to="/starter" className="nav-link">
-              Starter
+              Main
             </Link>
           </NavItem>
           <NavItem>

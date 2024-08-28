@@ -1,7 +1,7 @@
 import { Col, Row } from "reactstrap";
 import ActivityChart from "../components/dashboard/ActivityChart";
 import Notifications from "../components/dashboard/Notifications";
-import ProjectTables from "../components/dashboard/ProjectTable";
+import FlaggedSessionsTable from "../components/dashboard/FlaggedSessionsTable";
 
 import Blog from "../components/dashboard/Blog";
 import bg1 from "../assets/images/bg/bg1.jpg";
@@ -61,22 +61,8 @@ const Starter = () => {
       {/***Table ***/}
       <Row>
         <Col lg="12">
-          <ProjectTables />
+          <FlaggedSessionsTable />
         </Col>
-      </Row>
-      {/***Blog Cards***/}
-      <Row>
-        {BlogData.map((blg, index) => (
-          <Col sm="6" lg="6" xl="3" key={index}>
-            <Blog
-              image={blg.image}
-              title={blg.title}
-              subtitle={blg.subtitle}
-              text={blg.description}
-              color={blg.btnbg}
-            />
-          </Col>
-        ))}
       </Row>
     </div>
   );

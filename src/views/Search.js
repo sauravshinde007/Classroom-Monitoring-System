@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col, Input, FormGroup, Card, CardBody, CardTitle } from 'reactstrap';
 
-const About = () => {
+const Search = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearchChange = (event) => {
@@ -32,5 +32,5 @@ const About = () => {
   );
 };
 
-export default About;
+export default Search;
 

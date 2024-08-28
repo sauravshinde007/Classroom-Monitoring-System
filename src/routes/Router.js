@@ -8,13 +8,13 @@ const VideoUpload = lazy(() => import("../components/dashboard/VideoUpload.js"))
 /***** Pages ****/
 
 const Starter = lazy(() => import("../views/Starter.js"));
-const About = lazy(() => import("../views/About.js"));
+const Search = lazy(() => import("../views/Search.js"));
 const Alerts = lazy(() => import("../views/ui/Alerts"));
 const Buttons = lazy(() => import("../views/ui/Buttons"));
 const SessionAnalysis = lazy(() => import("../views/ui/SessionAnalysis.js"));
 const Grid = lazy(() => import("../views/ui/Grid"));
 const SessionHistory = lazy(() => import("../views/ui/SessionHistory.js"));
-const Forms = lazy(() => import("../views/ui/Forms"));
+const Settings = lazy(() => import("../views/ui/Settings.js"));
 
 
 /*****Routes******/
@@ -26,7 +26,7 @@ const ThemeRoutes = [
     children: [
       { path: "/", element: <Navigate to="/starter" /> },
       { path: "/starter", exact: true, element: <Starter /> },
-      { path: "/about", exact: true, element: <About /> },
+      { path: "/search", exact: true, element: <Search /> },
       { path: "/alerts", exact: true, element: <Alerts /> },
       { path: "/help", exact: true, element: <Help /> },
       { path: "/video-upload", exact: true, element: <VideoUpload /> },
@@ -34,7 +34,7 @@ const ThemeRoutes = [
       { path: "/session-analysis", exact: true, element: <SessionAnalysis /> },
       { path: "/grid", exact: true, element: <Grid /> },
       { path: "/session-history", exact: true, element: <SessionHistory /> },
-      { path: "/forms", exact: true, element: <Forms /> },
+      { path: "/settings", exact: true, element: <Settings /> },
     ],
   },
 ];

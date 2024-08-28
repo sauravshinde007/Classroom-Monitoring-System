@@ -19,10 +19,10 @@ const ActivityChart = () => {
     datasets: [
       {
         label: "Activity Levels",
-        backgroundColor: "rgba(75,192,192,1)",
+        backgroundColor: ["rgba(75,192,192,1)", "rgba(255,0,0,1)", "rgba(75,192,192,1)", "rgba(75,192,192,1)"],
         borderColor: "rgba(0,0,0,1)",
         borderWidth: 2,
-        data: [65, 59, 80, 81],
+        data: [65, 45, 80, 81],
       },
     ],
   };

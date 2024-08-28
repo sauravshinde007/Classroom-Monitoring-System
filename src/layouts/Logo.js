@@ -1,4 +1,4 @@
-import { ReactComponent as LogoDark } from "../assets/images/logos/adminpro.svg";
+import { ReactComponent as LogoDark } from "../assets/images/logos/Kaksha Drishti.svg";
 import { Link } from "react-router-dom";
 
 const Logo = () => {

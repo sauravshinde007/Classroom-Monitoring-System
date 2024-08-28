@@ -26,7 +26,7 @@ const navigation = [
   },
   {
     title: "Alerts & Reports",
-    href: "/alerts-reports",
+    href: "/alerts",
     icon: "bi bi-bell",
   },
   {
